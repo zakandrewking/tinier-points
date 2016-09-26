@@ -18,6 +18,8 @@ export const Board = createComponent({
     }
   },
 
+  shouldUpdate: () => false,
+
   render: ({ state, el }) => {
     const points = state.points.map((p, i) => <g>{ bind([ 'points', i ]) }</g>)
     return render(
