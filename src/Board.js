@@ -27,7 +27,7 @@ export const Board = createComponent({
       <p>
         Hi!<br/>
         <svg width={ state.width } height={ state.height }>
-            { points }
+          { points }
         </svg>
         Wooorld
       </p>
